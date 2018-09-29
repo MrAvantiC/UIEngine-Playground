@@ -1,0 +1,23 @@
+{
+  "name": "marmalade-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx uiengine build --serve --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@uiengine/adapter-html": "^1.1.2",
+    "@uiengine/adapter-react": "^1.1.2",
+    "@uiengine/core": "^1.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
