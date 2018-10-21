@@ -1,27 +1,51 @@
 ---
 title: Fonts
 tokens:
-- name: Arial
+- name: Georgia
   type: category
   tokens:
   - type: font
-    fontweight: light / 100
-    value: "font-family: Arial; font-weight: 100;"
+    fontweight: 400
+    variable: "var(--font-family-base)"
+    value: "font-family: var(--font-family-base);"
     sizes:
+      - 36px
       - 24px
       - 18px
       - 14px
+- name: Nexa Regular
+  type: category
+  tokens:
   - type: font
-    fontweight: regular / 400
-    value: "font-family: Arial; font-weight: 400;"
+    fontweight: 400
+    variable: "var(--font-family-nexa-regular)"
+    value: "font-family: var(--font-family-nexa-regular);"
     sizes:
+      - 36px
       - 24px
       - 18px
       - 14px
+- name: Nexa Light
+  type: category
+  tokens:
   - type: font
-    fontweight: bold / 800
-    value: "font-family: Arial; font-weight: 800;"
+    fontweight: 400
+    variable: "var(--font-family-nexa-light)"
+    value: "font-family: var(--font-family-nexa-light);"
     sizes:
+      - 36px
+      - 24px
+      - 18px
+      - 14px
+- name: Nexa Black
+  type: category
+  tokens:
+  - type: font
+    fontweight: 400
+    variable: "var(--font-family-nexa-black)"
+    value: "font-family: var(--font-family-nexa-black);"
+    sizes:
+      - 36px
       - 24px
       - 18px
       - 14px

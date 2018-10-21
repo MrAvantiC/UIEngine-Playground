@@ -1,0 +1,40 @@
+:root {
+  /* --color-white: #FFF; */
+  /* --color-white-transparent: rgba(255,255,255,.35); */
+  /* --color-gray-10: #ebebeb; */
+  /* --color-gray-20: #dedcdc; */
+  /* --color-orange: #ff9160; */
+  /* --color-orange-transparent: rgba(255,145,96,.35); */
+  /* --color-brown: #583f48; */
+  /* --color-brown-transparent: rgba(88,63,72,.8); */
+
+  --color-white: #FFF;
+  --color-blue: #192449;
+  --color-dark-blue: #20202F;
+  --color-yellow: #D7AC00;
+
+  --font-family-base: Georgia, Times, "Times New Roman", serif;
+  --font-family-nexa-light: "Nexa W01 Light", var(--font-family-base);
+  --font-family-nexa-regular: "Nexa W01 Regular", var(--font-family-base);
+  --font-family-nexa-black: "Nexa W01 Black", var(--font-family-base);
+
+  /* --font-size-xs: 9px; */
+  /* --font-size-s: 11px; */
+  /* --font-size-m: 14px; */
+  /* --font-size-l: 21px; */
+  /* --font-size-xl: 28px; */
+
+  /* --space-xxs: .125rem; */
+  /* --space-xs: .25rem; */
+  /* --space-s: .5rem; */
+  /* --space-m: .75rem; */
+  /* --space-l: 1.25rem; */
+  /* --space-xl: 1.75rem; */
+  /* --space-xxl: 2.25rem; */
+
+  /* --wrap-width: 1200px; */
+  /* --main-width: 850px; */
+  /* --wrap-padding: var(--space-l); */
+  /* --main-padding: var(--space-l); */
+}
+
