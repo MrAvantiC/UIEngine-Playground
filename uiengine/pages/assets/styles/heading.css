@@ -1,4 +1,10 @@
 h1 {
+  font-family: var(--font-family-nexa-heavy);
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+h2 {
   font-family: var(--font-family-nexa-black);
-  color: red;
+  font-size: 36px;
 }
