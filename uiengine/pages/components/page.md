@@ -2,4 +2,5 @@
 components:
 - Heading
 - KnowHowItem
+- Navigation
 ---
