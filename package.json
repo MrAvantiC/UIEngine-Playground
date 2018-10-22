@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx uiengine build --serve --watch"
+    "clean": "mkdir -p dist && rm -rf dist/*",
+    "predev": "npm run clean",
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:uiengine": "npx uiengine build --serve --watch",
+    "dev:next": "next"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +21,11 @@
     "@uiengine/adapter-html": "^1.2.0",
     "@uiengine/adapter-react": "^1.3.0",
     "@uiengine/core": "^1.3.0",
-    "prettier": "^1.14.3",
+    "npm-run-all": "^4.1.3",
+    "prettier": "^1.14.3"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2"
   }

@@ -11,7 +11,9 @@ const Navigation = ({ routes }) => {
 
       <div className="navigation__links">
         {routes.map(route => (
-          <a href={route.href} className="navigation__link">{route.title}</a>
+          <a href={route.href} className="navigation__link">
+            {route.title}
+          </a>
         ))}
       </div>
     </nav>

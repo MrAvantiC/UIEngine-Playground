@@ -16,7 +16,7 @@ module.exports = {
     templates: './src/templates',
     pages: './uiengine/pages',
     data: './uiengine/data',
-    entities: './uiengine/entities'
+    entities: './uiengine/entities',
   },
 
   // Destination paths for the generated output.
@@ -26,7 +26,7 @@ module.exports = {
   // and needs to provide functions for setup and rendering. For details see the adapters docs.
   adapters: {
     html: '@uiengine/adapter-html',
-    jsx: '@uiengine/adapter-react'
+    jsx: '@uiengine/adapter-react',
   },
 
   // Here you can configure the template that the variant preview gets embeded in.
@@ -38,21 +38,24 @@ module.exports = {
     // customStylesFile: '/path-to-overrides.css',
     viewports: {
       Phone: {
-        width: 320
+        width: 320,
       },
       Tablet: {
-        width: 768
+        width: 768,
       },
       Desktop: {
-        width: 1280
-      }
+        width: 1280,
+      },
     },
     breakpoints: {
       XS: 320,
       S: 560,
       M: 768,
       L: 960,
-      XL: 1280
-    }
-  }
+      XL: 1280,
+    },
+  },
+  browserSync: {
+    port: 4000,
+  },
 }
