@@ -1,4 +1,5 @@
 ---
 components:
 - Heading
+- KnowHowItem
 ---
