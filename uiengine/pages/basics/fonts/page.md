@@ -49,4 +49,16 @@ tokens:
       - 24px
       - 18px
       - 14px
+- name: Nexa Heavy
+  type: category
+  tokens:
+  - type: font
+    fontweight: 400
+    variable: "var(--font-family-nexa-heavy)"
+    value: "font-family: var(--font-family-nexa-heavy);"
+    sizes:
+      - 36px
+      - 24px
+      - 18px
+      - 14px
 ---

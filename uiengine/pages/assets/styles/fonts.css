@@ -1,14 +1,43 @@
 @font-face {
-  font-family: "Nexa W01 Light";
+  font-family: "Nexa Light";
   src: url("../fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix");
-  src: url("../fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix") format("eot"), url("../fonts/ed815298-43fd-424d-b694-5ca1a557da77.woff2") format("woff2"), url("../fonts/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff") format("woff"), url("../fonts/fc56443e-696b-483c-ad53-169f885b2b43.ttf") format("truetype"), url("../fonts/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg#20d9a7b2-e926-4e6c-b789-ff7224a42c23") format("svg"); }
+  src: url("../fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix")
+      format("eot"),
+    url("../fonts/ed815298-43fd-424d-b694-5ca1a557da77.woff2") format("woff2"),
+    url("../fonts/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff") format("woff"),
+    url("../fonts/fc56443e-696b-483c-ad53-169f885b2b43.ttf") format("truetype"),
+    url("../fonts/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg#20d9a7b2-e926-4e6c-b789-ff7224a42c23")
+      format("svg");
+}
 
 @font-face {
-  font-family: "Nexa W01 Regular";
+  font-family: "Nexa Regular";
   src: url("../fonts/b821715c-a9b5-4fa8-97bd-d8043b6a0a54.eot?#iefix");
-  src: url("../fonts/b821715c-a9b5-4fa8-97bd-d8043b6a0a54.eot?#iefix") format("eot"), url("../fonts/3868814a-b44d-4e0f-a82b-f43f0d55022e.woff2") format("woff2"), url("../fonts/cf185ee1-c761-4de0-82a6-24de1e15e867.woff") format("woff"), url("../fonts/6808a2ab-0861-4b2b-bfca-97af07bd5837.ttf") format("truetype"), url("../fonts/6d303f19-d8f5-4db0-91e8-77c2b874d39d.svg#6d303f19-d8f5-4db0-91e8-77c2b874d39d") format("svg"); }
+  src: url("../fonts/b821715c-a9b5-4fa8-97bd-d8043b6a0a54.eot?#iefix")
+      format("eot"),
+    url("../fonts/3868814a-b44d-4e0f-a82b-f43f0d55022e.woff2") format("woff2"),
+    url("../fonts/cf185ee1-c761-4de0-82a6-24de1e15e867.woff") format("woff"),
+    url("../fonts/6808a2ab-0861-4b2b-bfca-97af07bd5837.ttf") format("truetype"),
+    url("../fonts/6d303f19-d8f5-4db0-91e8-77c2b874d39d.svg#6d303f19-d8f5-4db0-91e8-77c2b874d39d")
+      format("svg");
+}
 
 @font-face {
-  font-family: "Nexa W01 Black";
+  font-family: "Nexa Black";
   src: url("../fonts/88a3a506-469a-4fea-81c4-ba7d609feb95.eot?#iefix");
-  src: url("../fonts/88a3a506-469a-4fea-81c4-ba7d609feb95.eot?#iefix") format("eot"), url("../fonts/78d3c1ba-0cae-4d45-a4cf-92b388602557.woff2") format("woff2"), url("../fonts/28754e0c-b69e-42d5-b1c5-4f94f2cb7acf.woff") format("woff"), url("../fonts/e35620d6-1843-4992-88ac-91ac20b1522c.ttf") format("truetype"), url("../fonts/b3753bb8-2138-4691-a2a4-3d248adf50f1.svg#b3753bb8-2138-4691-a2a4-3d248adf50f1") format("svg"); }
+  src: url("../fonts/88a3a506-469a-4fea-81c4-ba7d609feb95.eot?#iefix")
+      format("eot"),
+    url("../fonts/78d3c1ba-0cae-4d45-a4cf-92b388602557.woff2") format("woff2"),
+    url("../fonts/28754e0c-b69e-42d5-b1c5-4f94f2cb7acf.woff") format("woff"),
+    url("../fonts/e35620d6-1843-4992-88ac-91ac20b1522c.ttf") format("truetype"),
+    url("../fonts/b3753bb8-2138-4691-a2a4-3d248adf50f1.svg#b3753bb8-2138-4691-a2a4-3d248adf50f1")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("../fonts/254B32_0_0.eot");
+  src: url("../fonts/254B32_0_0.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/254B32_0_0.woff") format("woff"),
+    url("../fonts/254B32_0_0.ttf") format("truetype");
+}

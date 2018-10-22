@@ -14,9 +14,10 @@
   --color-yellow: #D7AC00;
 
   --font-family-base: Georgia, Times, "Times New Roman", serif;
-  --font-family-nexa-light: "Nexa W01 Light", var(--font-family-base);
-  --font-family-nexa-regular: "Nexa W01 Regular", var(--font-family-base);
-  --font-family-nexa-black: "Nexa W01 Black", var(--font-family-base);
+  --font-family-nexa-light: "Nexa Light", var(--font-family-base);
+  --font-family-nexa-regular: "Nexa Regular", var(--font-family-base);
+  --font-family-nexa-black: "Nexa Black", var(--font-family-base);
+  --font-family-nexa-heavy: "Nexa Heavy", var(--font-family-base);
 
   /* --font-size-xs: 9px; */
   /* --font-size-s: 11px; */
