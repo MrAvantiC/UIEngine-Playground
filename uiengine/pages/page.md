@@ -1,8 +1,11 @@
-# Marmalade Website
+---
+children:
+- basics
+- components
+- example_pages
+---
 
-Hey! It looks like you have just set up this project.
-Here are some first tips to get started.
-Feel free to replace these hints with the actual content for your homepage once you got going …
+# Marmalade Website
 
 ## How to create a component?
 

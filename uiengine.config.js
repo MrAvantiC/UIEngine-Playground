@@ -12,7 +12,7 @@ module.exports = {
   // - data contains sample data that can be referenced in variants and pages
   // - entities contains the optional entity definitions for the components
   source: {
-    components: './src/components',
+    components: ['./src/components', './src/page_components'],
     templates: './src/templates',
     pages: './uiengine/pages',
     data: './uiengine/data',
