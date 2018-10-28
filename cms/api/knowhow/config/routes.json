@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/knowhows",
+      "handler": "Knowhow.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowhows/count",
+      "handler": "Knowhow.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowhows/:_id",
+      "handler": "Knowhow.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/knowhows",
+      "handler": "Knowhow.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/knowhows/:_id",
+      "handler": "Knowhow.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/knowhows/:_id",
+      "handler": "Knowhow.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

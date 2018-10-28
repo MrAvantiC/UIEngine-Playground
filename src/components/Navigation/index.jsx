@@ -12,14 +12,14 @@ const Navigation = props => {
   return (
     <nav className="navigation">
       <img
-        src="/assets/images/marm-logo-m.jpg"
+        src="http://localhost:4000/assets/images/marm-logo-m.jpg"
         alt="Marmalade Logo"
         className="navigation__logo"
       />
 
       <div className="navigation__links">
         {routes.map(route => (
-          <a href={route.href} className="navigation__link">
+          <a key={route.title} href={route.href} className="navigation__link">
             {route.title}
           </a>
         ))}

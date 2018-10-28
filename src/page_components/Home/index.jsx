@@ -3,13 +3,16 @@ import Navigation from '../../components/Navigation/variants/Navigation'
 import Heading from '../../components/Heading'
 import KnowHowItem from '../../components/KnowHowItem'
 
-const Home = ({ titleImage, knowHowItems }) => {
+const Home = ({ knowHowItems }) => {
   return (
     <div>
       <header>
         <Navigation />
         <figure className="title-image">
-          <img src={titleImage} alt="marmalade GmbH" />
+          <img
+            src="http://localhost:4000/assets/images/header2.jpg"
+            alt="marmalade GmbH"
+          />
           <figcaption>
             <span className="title-text">Gemeinsam</span>
             <span className="title-text">Erfolgreich</span>
@@ -23,7 +26,7 @@ const Home = ({ titleImage, knowHowItems }) => {
           <Heading element="h3">Unsere Kompetenzen</Heading>
           <div className="content content--know-how">
             {knowHowItems.map(item => (
-              <KnowHowItem item={item} />
+              <KnowHowItem key={item.title} item={item} />
             ))}
           </div>
         </section>

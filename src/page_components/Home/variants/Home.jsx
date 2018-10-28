@@ -22,6 +22,4 @@ const items = [
   },
 ]
 
-export default () => (
-  <Home knowHowItems={items} titleImage="/assets/images/header2.jpg" />
-)
+export default () => <Home knowHowItems={items} />

@@ -57,5 +57,7 @@ module.exports = {
   },
   browserSync: {
     port: 4000,
+    open: false,
+    cors: true,
   },
 }
