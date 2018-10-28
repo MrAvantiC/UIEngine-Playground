@@ -8,3 +8,9 @@ h2 {
   font-family: var(--font-family-nexa-black);
   font-size: 36px;
 }
+
+h3 {
+  font-family: var(--font-family-nexa-heavy);
+  font-size: 30px;
+  text-transform: uppercase;
+}

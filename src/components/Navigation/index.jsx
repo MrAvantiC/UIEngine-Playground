@@ -1,6 +1,14 @@
 import React from 'react'
 
-const Navigation = ({ routes }) => {
+const routes = [
+  { title: 'Referenzen', href: '#' },
+  { title: 'Team', href: '#' },
+  { title: 'Jobs', href: '#' },
+  { title: 'Magazin', href: '#' },
+  { title: 'Makaira', href: '#' },
+]
+
+const Navigation = props => {
   return (
     <nav className="navigation">
       <img

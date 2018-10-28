@@ -1,0 +1,82 @@
+.title-image {
+  position: relative;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+}
+
+.title-image img {
+  width: 100%;
+  filter: brightness(50%);
+}
+
+.title-image figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-family-nexa-heavy);
+  font-size: 60px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.20);
+}
+
+.title-text {
+  display: block;
+  position: absolute;
+}
+
+.title-text:nth-child(1) {
+  top: 30%;
+  left: 20%
+}
+
+.title-text:nth-child(2) {
+  top: 45%;
+  left: 35%
+}
+
+.title-text:nth-child(3) {
+  top: 60%;
+  left: 55%
+}
+
+section {
+  padding: 40px 50px;
+}
+
+section h3 {
+  display: inline-block;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+section h3:before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 3px;
+  background: var(--color-yellow);
+  top: 120%;
+  right: 0;
+}
+
+section h3:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background: var(--color-yellow);
+  top: -2px;
+  right: -15px;
+}
+
+.know-how {
+  text-align: center;
+}
+
+.content--know-how {
+  display: flex;
+  justify-content: center;
+}

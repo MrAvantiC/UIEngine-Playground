@@ -1,20 +1,22 @@
 .knowhow-item {
-  display: flex;
-  align-items: flex-start;
   width: 100%;
-  max-width: 500px;
-  padding: 12px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.knowhow-item + .knowhow-item {
+  margin-left: 36px;
 }
 
 .knowhow-item__icon {
   width: 100%;
   max-width: 150px;
+  margin-bottom: 24px;
 }
 
 .knowhow-item__info {
   display: flex;
   flex-direction: column;
-  margin-left: 36px;
   line-height: 1.5em;
   color: #4a4a4a;
 }
